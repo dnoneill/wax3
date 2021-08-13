@@ -1,0 +1,34 @@
+---
+canvas: "https://dnoneill.github.io/wax3/img/derivatives/iiif/canvas/obj12_00.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "target": {
+        "source": "https://dnoneill.github.io/wax3/img/derivatives/iiif/canvas/obj12_00.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:1957.10400390625,2818.791748046875,2828.85888671875,2184.563720703125"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/wax3/img/derivatives/iiif/obj12/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "body": [
+        {
+            "type": "TextualBody",
+            "purpose": "commenting",
+            "created": "2021-08-13T03:38:39.275Z",
+            "value": "horse",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "modified": "2021-08-13T03:38:39.891Z"
+        }
+    ],
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "5a78c5dd-0ed0-4bbb-922c-dad8dab7aa1c.json"
+}
