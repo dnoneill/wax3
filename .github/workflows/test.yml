@@ -1,5 +1,5 @@
-name: ci:test
-on: [push, pull_request]
+name: test_collection
+on: workflow_dispatch
 
 jobs:
   test:
@@ -13,5 +13,19 @@ jobs:
           bundler-cache: true
       - name: install
         run: gem install bundler && bundle
-      - name: test
-        run: bundle exec rake wax:test
+      - name: pages
+        run: bundle exec rake wax:pages qatar
+      - name: derivatives
+        run: bundle exec rake wax:derivatives:iiif qatar
+      - name: commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "update data" -a
+          
+      - name: push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main  
