@@ -1,9 +1,9 @@
 images:
 - ''
 manifests:
-- thumbnail: https://damsssl.llgc.org.uk/iiif/2.0/4665992/res/4665993.jpg
-  title: Plan of Llandrindod parish in the County of Radnor
-  url: https://damsssl.llgc.org.uk/iiif/2.0/4665992/manifest.json
+- thumbnail: https://stacks.stanford.edu/image/iiif/wh234bz9013/wh234bz9013_05_0001/full/!400,400/0/default.jpg
+  title: "H\xC6MISPH\xC6RIUM STELLATVM BOREALE CVM SUBIECTO H\xC6MISPH\xC6RO TERRESTRI."
+  url: https://purl.stanford.edu/wh234bz9013/iiif/manifest
 settings:
   tempuser: notenabled
   viewer: default
