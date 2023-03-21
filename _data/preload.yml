@@ -1,9 +1,9 @@
 images:
 - ''
 manifests:
-- thumbnail: https://iiif.lib.ncsu.edu/iiif/segIns_004/full/150,/0/default.jpg
-  title: Insectes. Plate 1
-  url: https://d.lib.ncsu.edu/collections/catalog/segIns_004/manifest
+- thumbnail: https://damsssl.llgc.org.uk/iiif/2.0/4665992/res/4665993.jpg
+  title: Plan of Llandrindod parish in the County of Radnor
+  url: https://damsssl.llgc.org.uk/iiif/2.0/4665992/manifest.json
 settings:
   tempuser: notenabled
   viewer: default
