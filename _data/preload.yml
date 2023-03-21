@@ -1,9 +1,9 @@
 images:
 - ''
 manifests:
-- thumbnail: https://iiif.lib.ncsu.edu/iiif/mc00336-1911Bldg-May2017/full/150,/0/default.jpg
-  title: 1911 Building May 2017
-  url: https://d.lib.ncsu.edu/collections/catalog/mc00336-1911Bldg-May2017/manifest.json
+- thumbnail: https://iiif.lib.ncsu.edu/iiif/xx-bayeux3/full/250,/0/default.jpg
+  title: Bayeux Tapestry
+  url: https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/fullBayeux/manifest.json
 settings:
   tempuser: notenabled
   viewer: default
