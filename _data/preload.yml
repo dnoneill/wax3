@@ -1,8 +1,8 @@
 images:
 - ''
 manifests:
-- thumbnail: ''
-  title: ''
+- thumbnail: https://iiif.lib.ncsu.edu/iiif/xx-bayeux3/full/250,/0/default.jpg
+  title: Bayeux Tapestry
   url: https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/fullBayeux/manifest.json
 settings:
   tempuser: notenabled
