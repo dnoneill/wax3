@@ -1,9 +1,9 @@
 images:
 - ''
 manifests:
-- thumbnail: https://iiif.lib.ncsu.edu/iiif/xx-bayeux3/full/250,/0/default.jpg
-  title: Bayeux Tapestry
-  url: https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/fullBayeux/manifest.json
+- thumbnail: https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/full/120,/0/default.jpg
+  title: Paris, France 1924
+  url: ' https://dnoneill.github.io/annotate/manifests/parismap.json'
 settings:
   tempuser: notenabled
   viewer: default
