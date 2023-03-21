@@ -1,9 +1,9 @@
 images:
 - ''
 manifests:
-- thumbnail: https://iiif.lib.ncsu.edu/iiif/mc00240-001-ff0093-001-001_0010/full/150,/0/default.jpg
-  title: Cross section, interior details
-  url: https://d.lib.ncsu.edu/collections/catalog/mc00240-001-ff0093-001-001_0010/manifest.json
+- thumbnail: https://iiif.lib.ncsu.edu/iiif/0002386/full/150,/0/default.jpg
+  title: Aerial view of University Plaza (the Brickyard)
+  url: https://d.lib.ncsu.edu/collections/catalog/0002386/manifest.json
 settings:
   tempuser: notenabled
   viewer: default
