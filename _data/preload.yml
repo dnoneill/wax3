@@ -1,9 +1,64 @@
 images:
 - ''
 manifests:
-- thumbnail: https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/full/120,/0/default.jpg
-  title: Paris, France 1924
-  url: ' https://dnoneill.github.io/annotate/manifests/parismap.json'
+- thumbnail: !!python/object:iiif_prezi.factory.Image
+    _factory: &id001 !!python/object:iiif_prezi.factory.ManifestFactory
+      add_lang: false
+      context_uri: http://iiif.io/api/presentation/2/context.json
+      debug_level: warn
+      default_base_image_dir: ''
+      default_base_image_uri: ''
+      default_image_api_context: ''
+      default_image_api_dir: ''
+      default_image_api_level: -1
+      default_image_api_profile: ''
+      default_image_api_uri: ''
+      default_image_api_version: '0'
+      default_lang: en
+      image_auth_token: ''
+      log_stream: !!python/object/new:_io.StringIO
+        state: !!python/tuple
+        - 'WARNING: Setting non-standard field ''dcterms:created'' on resource of
+          type ''sc:Manifest''
+
+          WARNING: Setting non-standard field ''dcterms:modified'' on resource of
+          type ''sc:Manifest''
+
+          '
+        - '
+
+          '
+        - 177
+        - null
+      presentation_api_version: '2.1'
+      whichid: !!binary |
+        L3Vzci9sb2NhbC9iaW4vaWRlbnRpZnk=
+    _identifier: ''
+    format: ''
+    height: 0
+    id: https://iiif.lib.ncsu.edu/iiif/mc00336-1911Bldg-May2017/full/150,/0/default.jpg
+    label: ''
+    service: !!python/object:iiif_prezi.factory.Service
+      _factory: *id001
+      attribution: ''
+      context: http://iiif.io/api/image/2/context.json
+      description: ''
+      id: https://iiif.lib.ncsu.edu/iiif/mc00336-1911Bldg-May2017
+      label: ''
+      license: ''
+      logo: ''
+      metadata: []
+      profile: http://iiif.io/api/image/2/level2.json
+      related: ''
+      seeAlso: ''
+      service: ''
+      thumbnail: ''
+      type: ''
+      within: ''
+    type: dctypes:Image
+    width: 0
+  title: 1911 Building May 2017
+  url: https://d.lib.ncsu.edu/collections/catalog/mc00336-1911Bldg-May2017/manifest.json
 settings:
   tempuser: notenabled
   viewer: default
