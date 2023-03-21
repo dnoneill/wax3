@@ -1,9 +1,9 @@
 images:
 - ''
 manifests:
-- thumbnail: https://iiif.lib.ncsu.edu/iiif/nubian-message-2002-04-18/full/150,/0/default.jpg
-  title: Nubian Message, April 18, 2002
-  url: https://d.lib.ncsu.edu/collections/catalog/nubian-message-2002-04-18/manifest.json
+- thumbnail: https://iiif.lib.ncsu.edu/iiif/segIns_004/full/150,/0/default.jpg
+  title: Insectes. Plate 1
+  url: https://d.lib.ncsu.edu/collections/catalog/segIns_004/manifest
 settings:
   tempuser: notenabled
   viewer: default
